@@ -14,12 +14,12 @@
  - Comandos básicos de la terminal Unix
  - Dispositivos de E/S
  - Procesos
- - Ejemplos de algoritmos de planeación
+ - Planificacion de procesos
  - Almacenamiento
  - Jerarquía de memoria
- - Ejemplos de Virtualización del CPU, Virtualización de Memoria, Concurrencia, Persistencia
- - Personajes importantes para los sistemas operativos como Linus Torvalds y Denis Ritchie.
- - Instrucciones para instalar Linux o como instalar una nueva versión de Mac 
+ - Ejemplos de Virtualizacion de CPU, Memoria, Concurrencia y Persistencia
+ - Personajes importantes para los sistemas operativos
+ - Pasos para instalar Linux
 
 
 ## Introduccion a los sistemas operativos
@@ -146,7 +146,7 @@ Los dispositivos de entrada y salida, también conocidos como dispositivos mixto
 
 ![](img/DM.png)
 
-# Proceso
+# Procesos
 
 Consiste en la realización de una serie de tareas e instrucciones que conllevan a un resultado final.
 
@@ -170,7 +170,7 @@ Todo proceso cuenta con las siguientes caracteristicas:
 
 ![alt text](img/CPU.jpeg)
 
-## Hilo
+### Hilo
 
 Un hilo (tambien conocido como thread) es un subproceso de un proceso que consume recursos propios pero que depende del proceso padre que lo ha ejecutado.
 
@@ -178,7 +178,7 @@ Estos mejoran el rendimiento de los sistemas operativos a partir de un uso optim
 
 ![alt text](img/Hilos.png)
 
-## Transición de los procesos
+### Transición de los procesos
 
 Un proceso puede encontrarse en una de las siguientes transiciones:
 
@@ -192,7 +192,7 @@ Un proceso puede encontrarse en una de las siguientes transiciones:
 
 ![alt text](img/Transiciones.png)
 
-## Interrupciones
+### Interrupciones
 
 Una interrupción es una suspensión temporal de la ejecución de un proceso, para pasar a ejecutar una subrutina de servicio de interrupción, la cual, por lo general, no forma parte del programa, sino que pertenece al sistema operativo o al BIOS.
 
@@ -200,7 +200,7 @@ Una vez finalizada dicha subrutina, se reanuda la ejecución del programa.
 
 ![alt text](img/Interrupciones.jpg)
 
-# Planificación de procesos
+## Planificación de procesos
 
 Los siguientes son diferentes algoritmos de planificación de procesos:
 
@@ -228,13 +228,13 @@ Los siguientes son diferentes algoritmos de planificación de procesos:
 
 ![alt text](img/Colas%20multiples.png)
 
-## Multiprocesamiento
+### Multiprocesamiento
 
 Un sistema operativo multiproceso se refiere al número de procesadores del sistema, que es más de uno y éste es capaz de usarlos todos para distribuir su carga de trabajo.
 
 ![alt text](img/Multiprocesamiento.jpg)
 
-## Colas de planificación de procesos
+### Colas de planificación de procesos
 
 Cada uno de los procesos que entran al sistema, son puestos en un Job Queue o cola de trabajo que consiste en todos los procesos dentro del sistema.
 
@@ -242,7 +242,7 @@ Los procesos que residen en la memoria principal, estan listos y estan esperando
 
 ![alt text](img/Job.webp)
 
-# Almacenamiento
+## Almacenamiento
 
 - Bit (b): Simplemente es un 0 o 1, hay corriente o no hay corriente.
 
@@ -256,41 +256,44 @@ Los procesos que residen en la memoria principal, estan listos y estan esperando
 
 - Terabyte (TB): 1024 GB
 
-# Jerarquía de memoria
+## Jerarquía de memoria
 
 La jerarquía de memoria es la organización piramidal de la memoria en niveles que tienen las computadoras. El objetivo es conseguir el rendimiento de una memoria de gran velocidad al coste de una memoria de baja velocidad, basándose en el principio de cercanía de referencias.
 
 ![alt text](img/Jerarquia.webp)
+## Ejemplos de Virtualizacion de CPU, Memoria, Concurrencia y Persistencia
 
-## Virtualización del CPU
+### Virtualización del CPU
 
 Si se tienen dos maquinas virtuales con un sistema operativo en cada uno, entonces cada sistema operativo pensara que tienen su propio procesador, pero en realidad comparten un procesador físico.
 
-## Virtualización de memoria
+### Virtualización de memoria
 
 Si se tiene una aplicación A y una aplicación B que se ejecutan en un mismo sistema. Cada aplicación cree que tiene acceso exclusivo a la memoria del sistema, pero en realidad, el sistema operativo se encarga de asignar y gestionar el espacio de memoria compartido.
 
-## Concurrencia
+### Concurrencia
 
 Si se tiene dos procesos (P1 y P2) que se ejecutan simultáneamente en un sistema entonces los hilos (T1 y T2) permiten que estas tareas se ejecuten concurrentemente.
 
-## Persistencia
+### Persistencia
 
 Si se tiene una aplicación que gestiona una lista de tareas, se utiliza una base de datos para persistir los datos, de modo que las tareas no se pierdan incluso después de cerrar la aplicación.
 
-# Linus Torvalds
+## Personajes importantes para los sistemas operativos
+
+### Linus Torvalds
 
 Linus Torvalds es un ingeniero de software finlandés y el creador del sistema operativo Linux. Torvalds inició el desarrollo de Linux en 1991 mientras era estudiante de informática en la Universidad de Helsinki.
 
 ![alt text](img/Linus.webp)
 
-# Dennis Ritchie
+### Dennis Ritchie
 
 Dennis Ritchie fue uno de los creadores del lenguaje de programación C y co-desarrollador del sistema operativo Unix.
 
 ![alt text](img/Dennis.webp)
 
-# Pasos para instalar Linux
+## Pasos para instalar Linux
 
 1) Elegir una distribución de Linux
 

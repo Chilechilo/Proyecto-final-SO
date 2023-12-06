@@ -1,9 +1,9 @@
 # Proyecto Final: Sistemas Operativos
 ## Integrantes:
-## Luis Angel Hernandez Corrales(13480) y Alejandro Carrasco Maldonado()
-### 6 de Diciembre del 2023
+## Luis Angel Hernandez Corrales(13480) y Alejandro Carrasco Maldonado(13817)
+## 6 de Diciembre del 2023
 
-![](SO.png)
+![](img/SO.png)
 
 ## Indice
 
@@ -33,7 +33,7 @@ Los sistemas operativos existen para:
  - Relojes
  - Electrodomesticos
 
-![](dispositivoselectronicos.png)
+![](img/dispositivoselectronicos.png)
 
 ## Manipulacion de archivos y directorios
 
@@ -48,7 +48,7 @@ La manipulación de archivos y directorios es una parte fundamental en el funcio
 
 Se refiere al manejo de los múltiples ajustes o modificaciones aplicados a los componentes de un producto o su configuración.
 
-![](vcs.png)
+![](img/vcs.png)
 
 ## Historia de los sistemas operativos
 
@@ -59,7 +59,7 @@ Se refiere al manejo de los múltiples ajustes o modificaciones aplicados a los 
  - Utilización del lenguaje de programación FORTRAN.
  - La programación se realizaba mediante tarjetas perforadas.
 
-![](PG.jpg)
+![](img/PG.jpg)
 
 ### Segundo Nivel
 
@@ -68,14 +68,14 @@ Se refiere al manejo de los múltiples ajustes o modificaciones aplicados a los 
 - Se introducen los procesos en línea (conexión directa a la computadora) y fuera de línea (conexión mediante dispositivos más veloces).
 - Se desarrollan las técnicas de buffering y spooling. El buffering implica almacenar datos en memoria intermedia o buffer, mientras que el spooling implica almacenar datos en discos magnéticos.
 
-![](SG.png)
+![](img/SG.png)
 
 ### Tercer Nivel
 
  - Surge en la década de 1970.
  - Se introduce la multiprogramación: ejecución simultánea de múltiples programas en un solo procesador.
 
-![](TG.jpg)
+![](img/TG.jpg)
 
 ### Cuarto Nivel
 
@@ -83,31 +83,31 @@ Se refiere al manejo de los múltiples ajustes o modificaciones aplicados a los 
  - Se incrementa la seguridad mediante la interconexión simultánea de múltiples computadoras que comparten memoria, buses y terminales.
  - La velocidad de procesamiento se eleva mediante la adopción de la tecnología de multiprocesamiento: sistemas informáticos que incorporan más de un procesador.
 
-![](CG.jpg)
+![](img/CG.jpg)
 
 ### Quinto Nivel
 
  - Sistemas operativos diseñados específicamente para dispositivos móviles.
 
-![](QG.jpg)
+![](img/QG.jpg)
 
 ### Historia de MacOS
 
 Mac OS, inicialmente conocido como Macintosh System Software, surgió en los años 80 para la línea de computadoras Macintosh de Apple. Evolucionó a lo largo del tiempo, pasando por versiones como System 1, System 6, System 7 y Mac OS 9. En 2001, Apple presentó Mac OS X, basado en Unix y reconocido por su estabilidad y diseño innovador. Con el tiempo, el sistema se actualizó y en 2012 se renombró como "OS X", luego "macOS" en 2016, manteniendo su enfoque en simplicidad, seguridad y experiencia de usuario.
 
-![](MACOS.jpg)
+![](img/MACOS.jpg)
 
 ### Historia de Ubuntu
 
 Ubuntu, una distribución de Linux desarrollada por Canonical Ltd. en 2004, se basa en Debian y se centra en ofrecer un sistema operativo estable y fácil de usar para usuarios principiantes y avanzados. Su nombre, que significa "humanidad hacia los demás" en un concepto sudafricano, refleja su filosofía de accesibilidad y enfoque en el software libre y de código abierto. A través de lanzamientos periódicos con nuevas características y mejoras, Ubuntu se ha convertido en una de las distribuciones de Linux más populares y reconocidas, especialmente valorada por su comunidad activa y su soporte a largo plazo en versiones LTS.
 
-![](ubuntu.png)
+![](img/ubuntu.png)
 
 ### Windows
 
 Windows, desarrollado por Microsoft, se lanzó en 1985 como una interfaz gráfica para sistemas operativos MS-DOS. Las versiones posteriores como Windows 3.0, Windows 95, y Windows XP introdujeron mejoras significativas en la interfaz y funcionalidad. A lo largo de los años, Windows continuó evolucionando con versiones como Windows Vista, Windows 7, Windows 8 y finalmente Windows 10, que adoptó un modelo de servicio con actualizaciones continuas. Windows 10 se ha mantenido como el sistema operativo principal para computadoras personales y portátiles, destacando por su enfoque en la seguridad, compatibilidad de aplicaciones y experiencia de usuario.
 
-![](windows.jpg)
+![](img/windows.jpg)
 
 ## Comandos basicos de la terminal Unix
 
@@ -132,19 +132,19 @@ Windows, desarrollado por Microsoft, se lanzó en 1985 como una interfaz gráfic
 
 Los dispositivos de entrada son herramientas que se encargan de ingresar datos a la memoria principal de la computadora para su procesamiento. Estos dispositivos convierten la información de entrada en señales eléctricas.
 
-![](DE.png)
+![](img/DE.png)
 
 ### Dispositivos de Salida:
 
 Los dispositivos de salida son los elementos que muestran la información al usuario en formatos comprensibles, ya sea mediante imágenes, texto, sonidos o mediante interfaces táctiles. Su función principal consiste en sacar datos desde la memoria principal hacia el entorno externo.
 
-![](DS.png)
+![](img/DS.png)
 
 ### Dispositivos Mixtos:
 
 Los dispositivos de entrada y salida, también conocidos como dispositivos mixtos, posibilitan tanto la entrada como la salida de datos hacia y desde la memoria central.
 
-![](DM.png)
+![](img/DM.png)
 
 # Proceso
 
@@ -168,7 +168,7 @@ Todo proceso cuenta con las siguientes caracteristicas:
 
 - Información de auditoria: Puede incluir la cantidad de tiempo de procesador y de tiempo de reloj utilizados, así como los límites de tiempo, registros contables, etc.
 
-![alt text](CPU.jpeg)
+![alt text](img/CPU.jpeg)
 
 ## Hilo
 
@@ -176,7 +176,7 @@ Un hilo (tambien conocido como thread) es un subproceso de un proceso que consum
 
 Estos mejoran el rendimiento de los sistemas operativos a partir de un uso optimizado de memoria.
 
-![alt text](Hilos.png)
+![alt text](img/Hilos.png)
 
 ## Transición de los procesos
 
@@ -190,7 +190,7 @@ Un proceso puede encontrarse en una de las siguientes transiciones:
 
 - Transición D: Ocurre cuando el proceso pasa de estar bloqueado a estar preparado, es decir, cuando el proceso recibe una orden o señal que estaba esperando para pasar al estado de preparado y, posteriormente, tras la transición, a estado de ejecución.
 
-![alt text](Transiciones.png)
+![alt text](img/Transiciones.png)
 
 ## Interrupciones
 
@@ -198,7 +198,7 @@ Una interrupción es una suspensión temporal de la ejecución de un proceso, pa
 
 Una vez finalizada dicha subrutina, se reanuda la ejecución del programa.
 
-![alt text](Interrupciones.jpg)
+![alt text](img/Interrupciones.jpg)
 
 # Planificación de procesos
 
@@ -206,33 +206,33 @@ Los siguientes son diferentes algoritmos de planificación de procesos:
 
 - FCFS: Es un algoritmo que utiliza una fila de procesos determinando el funcionamiento de cada proceso por el orden de llegada.
 
-![alt text](FCFS.jpeg)
+![alt text](img/FCFS.jpeg)
 
 - SJF: Es un algoritmo que programa los trabajos por orden de duración, siendo el más corto el que se programa primero.
 
-![alt text](SJF.png)
+![alt text](img/SJF.png)
 
 - Round Robin: Es un algoritmo donde se determina el mismo tiempo para la ejecución de todos los procesos. Si un proceso no puede ejecutarse por completo en el tiempo asignado su ejecución será después de la ejecución de todos los procesos que se ejecuten con el tiempo asignado.
 
-![alt text](Round%20Robin.png)
+![alt text](img/Round%20Robin.png)
 
 - Planificación por prioridad: A cada proceso se le asigna una prioridad y se continúan con un criterio determinado. Los procesos serán atendidos de acuerdo con la prioridad determinada.
 
-![alt text](Prioridad.png)
+![alt text](img/Prioridad.png)
 
 - Planificación garantizada: En esta planificación el sistema se enfoca en la cantidad de usuarios que debe atender. 
 
-![alt text](Garantia.png)
+![alt text](img/Garantia.png)
 
 - Planificación de colas múltiples: Es un algoritmo donde la cola de procesos en estado de listos se divide en varias colas más pequeñas.
 
-![alt text](Colas%20multiples.png)
+![alt text](img/Colas%20multiples.png)
 
 ## Multiprocesamiento
 
 Un sistema operativo multiproceso se refiere al número de procesadores del sistema, que es más de uno y éste es capaz de usarlos todos para distribuir su carga de trabajo.
 
-![alt text](Multiprocesamiento.jpg)
+![alt text](img/Multiprocesamiento.jpg)
 
 ## Colas de planificación de procesos
 
@@ -240,7 +240,7 @@ Cada uno de los procesos que entran al sistema, son puestos en un Job Queue o co
 
 Los procesos que residen en la memoria principal, estan listos y estan esperando a ser ejecutados se llama Ready Queue.
 
-![alt text](Job.webp)
+![alt text](img/Job.webp)
 
 # Almacenamiento
 
@@ -260,7 +260,7 @@ Los procesos que residen en la memoria principal, estan listos y estan esperando
 
 La jerarquía de memoria es la organización piramidal de la memoria en niveles que tienen las computadoras. El objetivo es conseguir el rendimiento de una memoria de gran velocidad al coste de una memoria de baja velocidad, basándose en el principio de cercanía de referencias.
 
-![alt text](Jerarquia.webp)
+![alt text](img/Jerarquia.webp)
 
 ## Virtualización del CPU
 
@@ -282,13 +282,13 @@ Si se tiene una aplicación que gestiona una lista de tareas, se utiliza una bas
 
 Linus Torvalds es un ingeniero de software finlandés y el creador del sistema operativo Linux. Torvalds inició el desarrollo de Linux en 1991 mientras era estudiante de informática en la Universidad de Helsinki.
 
-![alt text](Linus.webp)
+![alt text](img/Linus.webp)
 
 # Dennis Ritchie
 
 Dennis Ritchie fue uno de los creadores del lenguaje de programación C y co-desarrollador del sistema operativo Unix.
 
-![alt text](Dennis.webp)
+![alt text](img/Dennis.webp)
 
 # Pasos para instalar Linux
 
@@ -312,4 +312,6 @@ Dennis Ritchie fue uno de los creadores del lenguaje de programación C y co-des
 
 10) Abrir sistema operativo instalado
 
-![alt text](Tux.webp)
+![alt text](img/Tux.webp)
+
+# Gracias

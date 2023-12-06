@@ -146,3 +146,170 @@ Los dispositivos de entrada y salida, también conocidos como dispositivos mixto
 
 ![](DM.png)
 
+# Proceso
+
+Consiste en la realización de una serie de tareas e instrucciones que conllevan a un resultado final.
+
+Todo proceso cuenta con las siguientes caracteristicas:
+
+- Identificador: Sirve para distinguir a un proceso de los otros
+
+- Estado: Muestra si el proceso esta siendo creado, si esta en ejecución, si esta esperando a que sea asignado a un procesador o si ha finalizado
+
+- Prioridad: Indica el nivel de importancia que tiene un proceso en comparación al resto
+
+- Contador de programa: La dirección de la siguiente instrucción del programa que se ejecutará
+
+- Punteros a memoria: Incluye los punteros al código de programa y los datos asociados a dicho proceso
+
+- Datos de contexto: Estos son datos que están presentes en los registros del procesador cuando el proceso está corriendo
+
+- Información de estado de E/S: Es todo lo relacionado a dispositivos de entrada y salida
+
+- Información de auditoria: Puede incluir la cantidad de tiempo de procesador y de tiempo de reloj utilizados, así como los límites de tiempo, registros contables, etc.
+
+![alt text](CPU.jpeg)
+
+## Hilo
+
+Un hilo (tambien conocido como thread) es un subproceso de un proceso que consume recursos propios pero que depende del proceso padre que lo ha ejecutado.
+
+Estos mejoran el rendimiento de los sistemas operativos a partir de un uso optimizado de memoria.
+
+![alt text](Hilos.png)
+
+## Transición de los procesos
+
+Un proceso puede encontrarse en una de las siguientes transiciones:
+
+- Transición A: Ocurre cuando el programa que está en ejecución necesita algún elemento para continuar ejecutándose.
+
+- Transición B: Ocurre cuando un programa o proceso ha utilizado el tiempo asignado por el procesador para su ejecución y tiene que dar paso al siguiente proceso.
+
+- Transición C: Ocurre cuando el proceso que está preparado pasa al proceso de ejecución.
+
+- Transición D: Ocurre cuando el proceso pasa de estar bloqueado a estar preparado, es decir, cuando el proceso recibe una orden o señal que estaba esperando para pasar al estado de preparado y, posteriormente, tras la transición, a estado de ejecución.
+
+![alt text](Transiciones.png)
+
+## Interrupciones
+
+Una interrupción es una suspensión temporal de la ejecución de un proceso, para pasar a ejecutar una subrutina de servicio de interrupción, la cual, por lo general, no forma parte del programa, sino que pertenece al sistema operativo o al BIOS.
+
+Una vez finalizada dicha subrutina, se reanuda la ejecución del programa.
+
+![alt text](Interrupciones.jpg)
+
+# Planificación de procesos
+
+Los siguientes son diferentes algoritmos de planificación de procesos:
+
+- FCFS: Es un algoritmo que utiliza una fila de procesos determinando el funcionamiento de cada proceso por el orden de llegada.
+
+![alt text](FCFS.jpeg)
+
+- SJF: Es un algoritmo que programa los trabajos por orden de duración, siendo el más corto el que se programa primero.
+
+![alt text](SJF.png)
+
+- Round Robin: Es un algoritmo donde se determina el mismo tiempo para la ejecución de todos los procesos. Si un proceso no puede ejecutarse por completo en el tiempo asignado su ejecución será después de la ejecución de todos los procesos que se ejecuten con el tiempo asignado.
+
+![alt text](Round%20Robin.png)
+
+- Planificación por prioridad: A cada proceso se le asigna una prioridad y se continúan con un criterio determinado. Los procesos serán atendidos de acuerdo con la prioridad determinada.
+
+![alt text](Prioridad.png)
+
+- Planificación garantizada: En esta planificación el sistema se enfoca en la cantidad de usuarios que debe atender. 
+
+![alt text](Garantia.png)
+
+- Planificación de colas múltiples: Es un algoritmo donde la cola de procesos en estado de listos se divide en varias colas más pequeñas.
+
+![alt text](Colas%20multiples.png)
+
+## Multiprocesamiento
+
+Un sistema operativo multiproceso se refiere al número de procesadores del sistema, que es más de uno y éste es capaz de usarlos todos para distribuir su carga de trabajo.
+
+![alt text](Multiprocesamiento.jpg)
+
+## Colas de planificación de procesos
+
+Cada uno de los procesos que entran al sistema, son puestos en un Job Queue o cola de trabajo que consiste en todos los procesos dentro del sistema.
+
+Los procesos que residen en la memoria principal, estan listos y estan esperando a ser ejecutados se llama Ready Queue.
+
+![alt text](Job.webp)
+
+# Almacenamiento
+
+- Bit (b): Simplemente es un 0 o 1, hay corriente o no hay corriente.
+
+- Byte (B): Es la primera unidad de almacenamiento que tiene sentido, esta compuesta por 8 bits, un Byte es aproximadamente un caracter.
+
+- Kilobyte (KB): 1024 Bytes
+
+- Megabyte (MB): 1024 KB
+
+- Gigabyte (GB): 1024 MB
+
+- Terabyte (TB): 1024 GB
+
+# Jerarquía de memoria
+
+La jerarquía de memoria es la organización piramidal de la memoria en niveles que tienen las computadoras. El objetivo es conseguir el rendimiento de una memoria de gran velocidad al coste de una memoria de baja velocidad, basándose en el principio de cercanía de referencias.
+
+![alt text](Jerarquia.webp)
+
+## Virtualización del CPU
+
+Si se tienen dos maquinas virtuales con un sistema operativo en cada uno, entonces cada sistema operativo pensara que tienen su propio procesador, pero en realidad comparten un procesador físico.
+
+## Virtualización de memoria
+
+Si se tiene una aplicación A y una aplicación B que se ejecutan en un mismo sistema. Cada aplicación cree que tiene acceso exclusivo a la memoria del sistema, pero en realidad, el sistema operativo se encarga de asignar y gestionar el espacio de memoria compartido.
+
+## Concurrencia
+
+Si se tiene dos procesos (P1 y P2) que se ejecutan simultáneamente en un sistema entonces los hilos (T1 y T2) permiten que estas tareas se ejecuten concurrentemente.
+
+## Persistencia
+
+Si se tiene una aplicación que gestiona una lista de tareas, se utiliza una base de datos para persistir los datos, de modo que las tareas no se pierdan incluso después de cerrar la aplicación.
+
+# Linus Torvalds
+
+Linus Torvalds es un ingeniero de software finlandés y el creador del sistema operativo Linux. Torvalds inició el desarrollo de Linux en 1991 mientras era estudiante de informática en la Universidad de Helsinki.
+
+![alt text](Linus.webp)
+
+# Dennis Ritchie
+
+Dennis Ritchie fue uno de los creadores del lenguaje de programación C y co-desarrollador del sistema operativo Unix.
+
+![alt text](Dennis.webp)
+
+# Pasos para instalar Linux
+
+1) Elegir una distribución de Linux
+
+2) Descargar la imagen ISO
+
+3) Crear una USB de arranque
+
+4) Arrancar desde el dispositivo de arranque
+
+5) Iniciar el proceso de instalación
+
+6) Configurar la instalación
+
+7) Particionar el disco (opcional)
+
+8) Finalizar instalación
+
+9) Reiniciar
+
+10) Abrir sistema operativo instalado
+
+![alt text](Tux.webp)
